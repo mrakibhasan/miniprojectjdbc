@@ -35,7 +35,7 @@ public class ProductManagementDemo {
 				}
 				break;
 			case 2: 
-				System.out.println("Enter the category Io delete");
+				System.out.println("Enter the category Id delete");
 				int deleteid=userChoice.nextInt();
 				if(cbo.deletecategoryInfo(deleteid)>0){
 					System.out.println("delete category Successfully: "+deleteid);
