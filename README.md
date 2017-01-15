@@ -16,8 +16,8 @@ This project contains source folder under five packages:
 		
 	com.jdbc.BO
 		-All classes in this folder return the result from the com.jdbc.DAO 		package. Here two java files one is control the product and another is 		maintain the category
-	
+		
 	com.jdbc.view
-		-This is the java file that responsible to show the result in the 		console
+		-This is the java file that responsible to show the result in the 		     		console
 		
 		End
