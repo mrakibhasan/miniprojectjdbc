@@ -13,7 +13,7 @@ public class CategoryDaoImpl implements CategoryDAO{
   
 	DBConnection connection=new DBConnection();
 	Connection connect=null;
-	
+	Category category=new Category();
 	@Override
 	public List<Category> getAllCategories() throws Exception {
 		List <Category> allCat=new ArrayList<Category>();
@@ -23,7 +23,7 @@ public class CategoryDaoImpl implements CategoryDAO{
 		Statement smt=connect.createStatement();
 		ResultSet  rs=smt.executeQuery(sql);
 		while (rs.next()){
-			Category category=new Category();
+			
 			category.setId(rs.getInt("id"));
 			category.setName(rs.getString("name"));
 			allCat.add(category);
