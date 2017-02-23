@@ -2,7 +2,7 @@
 
 This is simple jdbc project which maintain products and category information.
 This project contains source folder under five packages:
-
+sss
 	com.jdbc.util
 		-Database connection class
 		
